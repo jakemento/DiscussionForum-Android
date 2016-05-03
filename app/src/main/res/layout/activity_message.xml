@@ -58,4 +58,13 @@
         android:textSize="35sp"
         android:textStyle="bold"
         android:typeface="monospace" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Post"
+        android:id="@+id/postMessageButton"
+        android:layout_below="@+id/categoryEditText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="53dp" />
 </RelativeLayout>
