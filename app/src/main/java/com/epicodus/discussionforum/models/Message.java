@@ -1,5 +1,10 @@
 package com.epicodus.discussionforum.models;
 
+import org.parceler.Parcel;
+
+import java.util.ArrayList;
+
+@Parcel
 public class Message {
     private String mMessage;
     private String mAuthor;
@@ -12,12 +17,15 @@ public class Message {
     }
 
     public String getMessage() {
+
         return mMessage;
     }
     public String getAuthor() {
+
         return mAuthor;
     }
     public String getCategory() {
+
         return mCategory;
     }
 }
