@@ -27,4 +27,13 @@
         android:typeface="serif"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Message"
+        android:id="@+id/newMessageButton"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="159dp" />
 </RelativeLayout>
