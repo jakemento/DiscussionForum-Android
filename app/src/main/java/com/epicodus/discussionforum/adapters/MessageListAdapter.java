@@ -1,6 +1,7 @@
 package com.epicodus.discussionforum.adapters;
 
 
+import android.content.Context;
 import android.content.Intent;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -11,7 +12,6 @@ import android.widget.TextView;
 import com.epicodus.discussionforum.R;
 import com.epicodus.discussionforum.models.Message;
 import com.epicodus.discussionforum.ui.MessageDetailActivity;
-import com.firebase.client.core.Context;
 
 import org.parceler.Parcels;
 

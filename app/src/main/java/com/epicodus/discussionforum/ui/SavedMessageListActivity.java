@@ -20,7 +20,7 @@ public class SavedMessageListActivity extends AppCompatActivity {
     private Firebase mFirebaseMessagesRef;
     private FirebaseMessageListAdapter mAdapter;
 
-    @Bind(R.id.reyclerView) RecyclerView mRecyclerView;
+    @Bind(R.id.recyclerView) RecyclerView mRecyclerView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
