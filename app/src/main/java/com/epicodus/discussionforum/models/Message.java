@@ -6,26 +6,28 @@ import java.util.ArrayList;
 
 @Parcel
 public class Message {
-    private String mMessage;
-    private String mAuthor;
-    private String mCategory;
+   String message;
+    String author;
+    String category;
 
-    public Message (String message, String author, String category) {
-        this.mMessage = message;
-        this.mAuthor = author;
-        this.mCategory = category;
+    public Message() {}
+
+    public Message(String message, String author, String category) {
+        this.message = message;
+        this.author = author;
+        this.category = category;
     }
 
     public String getMessage() {
 
-        return mMessage;
+        return message;
     }
     public String getAuthor() {
 
-        return mAuthor;
+        return author;
     }
     public String getCategory() {
 
-        return mCategory;
+        return category;
     }
 }

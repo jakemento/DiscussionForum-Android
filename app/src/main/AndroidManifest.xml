@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.epicodus.discussionforum">
+
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
@@ -19,7 +20,8 @@
         </activity>
         <activity android:name=".ui.MessageActivity" />
         <activity android:name=".ui.MessagesListActivity" />
-        <activity android:name=".ui.MessageDetailActivity"></activity>
+        <activity android:name=".ui.MessageDetailActivity" />
+        <activity android:name=".ui.SavedMessageListActivity"></activity>
     </application>
 
 </manifest>

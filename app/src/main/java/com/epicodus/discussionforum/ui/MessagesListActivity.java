@@ -39,17 +39,10 @@ public class MessagesListActivity extends AppCompatActivity {
     }
 
     private void getMessages(String message) {
-
-                MessagesListActivity.this.runOnUiThread(new Runnable() {
-            @Override
-            public void run() {
-                mAdapter = new MessageListAdapter(getApplicationContext(), mMessages);
-                mRecyclerView.setAdapter(mAdapter);
-                RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(MessagesListActivity.this);
-                mRecyclerView.setLayoutManager(layoutManager);
-                mRecyclerView.setHasFixedSize(true);
-            }
-
-        });
+        mAdapter = new MessageListAdapter(getApplicationContext(), mMessages);
+        mRecyclerView.setAdapter(mAdapter);
+        RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(MessagesListActivity.this);
+        mRecyclerView.setLayoutManager(layoutManager);
+        mRecyclerView.setHasFixedSize(true);
     }
 }
